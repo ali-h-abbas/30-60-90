@@ -455,7 +455,7 @@ const DashboardConcept = () => {
                 {isExpanded && (
                     <div className="p-6 md:p-8 bg-gray-50 text-gray-800">
                         <p className="mb-8 border-l-4 border-blue-500 pl-4 text-gray-700 italic font-medium">
-                            **The Pitch:** "A single pane of glass correlating operational inputs (Budget/HC) with strategic outputs (Revenue/Wins) and organizational health (Culture/Compliance). This is the functional spec sheet for the BI team."
+                            "A single pane of glass correlating operational inputs (Budget/HC) with strategic outputs (Revenue/Wins) and organizational health (Culture/Compliance). This is the functional spec sheet for the BI team."
                         </p>
 
                         <div className="mb-10">
@@ -514,7 +514,7 @@ const DashboardConcept = () => {
                                 <h4 className="text-lg font-bold text-blue-800">Zone 4: The BPM "Synthesis" (The "POV")</h4>
                             </div>
                             <p className="text-sm text-gray-700 italic">
-                                **Executive Commentary Text Box:** This dedicated space allows the Program Manager to provide weekly strategic narrative, moving the leadership team from "What Happened" (data) to "What It Means" (analysis) and "What We Do Next" (recommendations).
+                                This dedicated space allows the Program Manager to provide weekly strategic narrative, moving the leadership team from "What Happened" (data) to "What It Means" (analysis) and "What We Do Next" (recommendations).
                             </p>
                             <div className="mt-4 p-3 bg-white border border-gray-300 h-16 text-sm text-gray-500 italic rounded">
                                 *Example Synthesis: Headcount velocity for AI roles is 15 days behind target due to comp limits. Recommend re-allocating $500K from Morale Budget to Central Pool to fund market-rate adjustments.*
