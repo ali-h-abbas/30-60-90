@@ -67,7 +67,7 @@ const planData = {
         {
             dayRange: 'Days 31-60',
             title: 'Phase 2: Contribute & Optimize',
-            theme: 'Focus on taking on initial projects, implementing quick wins, and building/strengthening key relationships."',
+            theme: 'Focus on taking on initial projects, implementing quick wins, and building/strengthening key relationships.',
             color: 'bg-green-600',
             icon: Zap,
             goals: [
@@ -455,7 +455,7 @@ const DashboardConcept = () => {
                 {isExpanded && (
                     <div className="p-6 md:p-8 bg-gray-50 text-gray-800">
                         <p className="mb-8 border-l-4 border-blue-500 pl-4 text-gray-700 italic font-medium">
-                            "A single pane of glass correlating operational inputs (Budget/HC) with strategic outputs (Revenue/Wins) and organizational health (Culture/Compliance). This is the functional spec sheet for the BI team."
+                            A single pane of glass correlating operational inputs (Budget/HC) with strategic outputs (Revenue/Wins) and organizational health (Culture/Compliance).
                         </p>
 
                         <div className="mb-10">
