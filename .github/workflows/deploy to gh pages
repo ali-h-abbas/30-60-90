@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages (Pages actions)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare public folder
+        run: |
+          mkdir -p public
+          cp index.html public/ || true
+          cp 30-60-90.jsx public/ || true
+          cp README.md public/ || true
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload Pages artifact (artifact v4)
+        uses: actions/upload-artifact@v4
+        with:
+          name: pages
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
