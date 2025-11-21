@@ -38,28 +38,28 @@ const planData = {
                     id: 'g1-1',
                     area: 'Stakeholder & Culture Alignment',
                     objective: 'Meet 1:1 with all core stakeholders. Understand key dependencies, communication preferences, and the organizational "why" behind current allocations.',
-                    metric: '1:1 meetings completed with 100% of core stakeholders. Create a living Stakeholder Map and Master the FY26 Strategy & Blueprint.',
+                    metric: '1:1 meetings completed with 100% of core stakeholders. Integrate into existing rhythms, onboard into core tools, shadow STU leader where relevant.',
                     icon: Users,
                 },
                 {
                     id: 'g1-2',
-                    area: 'Budget Auditing & Cascade Model',
-                    objective: 'Partner with Finance to Audit historical spend (Trends & Variances). Define the initial Cascade Model (Draft: 60% Per Capita / 25% Program Pool / 15% Reserve).',
-                    metric: 'Draft Budget Cascade Model defined and shared with Finance. Detailed understanding of the budget vs. actuals process.',
+                    area: 'Integrated Budget Planning & FY27 Cascade Model',
+                    objective: 'Partner with Finance, STU Leadership, and Specialist Leads to understand the FY26 budget structure. Begin drafts for FY27 blueprint, quota, allocation matrix, and discretionary funds.',
+                    metric: 'Foundations of FY27 planning model established. Detailed understanding of current state & desired future.',
                     icon: DollarSign,
                 },
                 {
                     id: 'g1-3',
                     area: 'RoB Mapping & Compliance Sentiment',
-                    objective: 'Document the existing RoB (cadence, purpose, inputs/outputs). Assess "Compliance Sentiment" (blocker or helper) and map insertion points in existing RoB (All Hands, QBRs).',
-                    metric: 'A documented SME&C Global STU RoB map delivered for review. Full ownership of the upcoming 2 weeks of leadership meeting agendas.',
+                    objective: 'Conduct gap analysis on existing RoB Processes and Documentation, identify pain points (redundancy, friction, missing forums). Define quick wins in compliance related to SME&C in high leverage forums. ',
+                    metric: 'RoB gap analysis, remedial roadmap with pain points and room to accelerate identified. Full ownership of successful execution of high-impact, optimized agendas for core leadership rhyth,s.',
                     icon: LayoutGrid,
                 },
                 {
                     id: 'g1-4',
                     area: 'Strategic POV & Health Dashboard',
                     objective: 'Build the listening system: Set up alerts (Market/Compete) and access key dashboards (Copilot, ACR, E5 Upsell) to establish the Strategic Point of View.',
-                    metric: 'A baseline "Health Dashboard" established for the STU, summarizing key operational and strategic data points.',
+                    metric: 'A baseline "STU Cockpit" pilot, including links to existing dashboards and roadmap for future state (KPIs, synthesis, narrative).',
                     icon: Shield,
                 },
             ],
@@ -74,28 +74,28 @@ const planData = {
                 {
                     id: 'g2-1',
                     area: 'Budget Cascade Rollout & Training',
-                    objective: 'Roll out the Allocation Matrix. Document the "Eligible Spend" policy. Train managers on the approval workflow and investment criteria (ROI, TTV, Strategic Fit).',
-                    metric: 'Budget cascade live. First round of "Investment Bets" ranked and scored against established criteria.',
+                    objective: 'Empower manager investment decision making, establish clarity on discretionary spend, create alignment on investment criteria (ROI, TTV, strategy), and drive ownership of resource allocation and prioritization.',
+                    metric: '100% of Specialist Leads clear on budgeting & have had inputs into FY27 models. Creation of a culture of insight & data dirven investment.',
                     icon: DollarSign,
                 },
                 {
                     id: 'g2-2',
                     area: 'Compliance Integration & Coaching',
-                    objective: 'Launch "Just-in-Time" Coaching Kits for managers (15-min discussion guides). Initiate the "Shades of Grey" ethical decision-making pilots.',
-                    metric: 'Coaching Kits launched to 100% of people managers. Training Completion Rate improved by a defined percentage (e.g., 10%).',
+                    objective: 'Design "just-in-time" coaching kits for STU leaders, embedding compliance as business enabler. Develop organizational resilience through ethical decision--making, growth mindset, and learning environment.',
+                    metric: 'Coaching kits launched to people managers, supporting people/culture/pulse metrics and drive leadership focus on talent development and engagement',
                     icon: Shield,
                 },
                 {
                     id: 'g2-3',
                     area: 'Strategic Synthesis & Friction Check',
-                    objective: 'Validate data insights with managers ("Friction Check") to ensure the "numbers match the reality." Draft the first "State of the Business" synthesis report.',
-                    metric: 'Successful monthly forecast submission. State of the Business synthesis drafted and presented to the Global STU Leader.',
+                    objective: 'Conduct "Friction Check" to validate data insights and pressure test forecast accuracy against on-the-ground reality. Draft the first "State of the Business" Strategic synthesis report and establish baseline for H2 priorities for SME&C STU Leaders.',
+                    metric: 'State of the Business drafted, presented, used to inform and reinforce forecasting and RoB as well as integration into FY27 planning.',
                     icon: Briefcase,
                 },
                 {
                     id: 'g2-4',
                     area: 'Project Portfolio Management',
-                    objective: 'Inventory the current project portfolio across Specialist Leads. Introduce a standardized status reporting template for unified visibility.',
+                    objective: 'Inventory of current workload and project portfolio across STU Leads, to identify redundancies, risks, and bottlenecks. Introduction of status reporting cadence and reporting to support Global SME&C STU Leader with unified visbility into decisions and actions.',
                     metric: 'A single, centralized Project Portfolio Dashboard is established and actively maintained, enabling data-driven investment vetting.',
                     icon: Target,
                 },
@@ -111,29 +111,29 @@ const planData = {
                 {
                     id: 'g3-1',
                     area: 'Strategic Foresight & Proactive POV',
-                    objective: 'Institutionalize the "Foresight Review." Move from reactive reporting to proactive recommendations (e.g., "Competitor X is shifting, we need to pivot Y") and present a 90-Day Operational Review.',
-                    metric: 'Full operational rhythm established. Strategic POV integrated into Leadership decision-making and formally presented in the 90-Day Operational Review.',
+                    objective: 'Institutionalize Strategic Foresight. Move the team from reactive reporting to proactive, hypothesis-driven recommendations that anticipate market shifts, partner movements, and competitive actions.',
+                    metric: 'Full operational rhythm established. Strategic POV integrated into Leadership decision-making and aligned to RoB and STU Lead communications.',
                     icon: Zap,
                 },
                 {
                     id: 'g3-2',
                     area: 'Budget Re-allocation & Variance Analysis',
-                    objective: 'Conduct the First Variance Analysis. Re-allocate under-spend to the "Central Pool" for high-impact initiatives. Finalize "Bets" recommendation and conduct Capacity Checks (Automate vs. Hire).',
-                    metric: 'Under-spend re-allocated to Central Pool. New resource request/prioritization mechanism documented and approved by leadership.',
+                    objective: 'Evaluate mid-cycle variance analysis and identify under-performing resource areas. Explore re-allocation opportunities in alignment with strategic direction. Optimize perspective for FY27 planning further, ensure involvmenet in key planning circles as well as cascade and decision making strategies.',
+                    metric: 'FY26 budget and plan performance, pipeline health, resource planning clarity.',
                     icon: DollarSign,
                 },
                 {
                     id: 'g3-3',
                     area: 'Compliance Integration & Risk Scenarios',
-                    objective: 'Launch Compliance Recognition Program. Integrate "Risk Scenarios" into Quarterly Business Reviews (QBRs) in collaboration with STU Specialist Leads.',
-                    metric: 'Compliance Recognition Program launched. Risk Scenarios integrated into QBR process documentation.',
+                    objective: 'Embed proactive risk management into culture of SME&C STU. Partner with Leads to intetgrate forward-looking risk scenarios into QBRs and foster praoctive dialogue around business threats and mitigation strategies.',
+                    metric: 'Ensure compliance recognition in performance reviews, leadership assessments and rewards. Risk scenarios and culture of compliance owned and held as vital by STU Leads.',
                     icon: Shield,
                 },
                 {
                     id: 'g3-4',
                     area: 'Operational Execution & Accountability',
-                    objective: 'Implement an objective system (e.g., OKRs) that ties directly to organizational goals. Automate or streamline 1-2 manual reporting processes.',
-                    metric: 'Q4/H2 Objectives (OKRs) finalized, communicated, and aligned. Documented time savings from process automation.',
+                    objective: 'Get to clarity on FY27 priority shifts and ensure a direct cascade into organizational role clarity, aligned actions, and team efforts. Act as an organizational multiplier in proactively identifying friction points, supporting automated processes, and freeing up high-value time for the team.',
+                    metric: 'Clear path to FY27 priorities established, with measurable impact on team efficiency and effectiveness.',
                     icon: CheckCircle,
                 },
             ],
@@ -175,12 +175,12 @@ const ValuePropSection = () => (
     <div className="mb-12 p-6 md:p-10 bg-white rounded-3xl shadow-2xl border-b-4 border-blue-500">
         {/* Executive Summary */}
         <div className="text-center mb-10">
-            <p className="text-xl font-semibold text-gray-700 mb-2">Executive Summary & Value Prop</p>
+            <p className="text-xl font-semibold text-gray-700 mb-2">Executive Summary</p>
             <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-                A <span className="text-blue-600">Data-Led Operator</span> with End-to-End Ecosystem Fluency
+                <span className="text-blue-600">Insights-Led Operator</span> with Intersectional Ecosystem Experience
             </h1>
             <h2 className="text-lg md:text-xl text-gray-500 mt-3">
-                Combining Microsoft rigor with the agility of a startup Chief of Staff to drive STU excellence.
+                Bridging Microsoft rigour with localized, agile execution through values-led operational excellence and organizational clarity.
             </h2>
         </div>
 
@@ -190,12 +190,12 @@ const ValuePropSection = () => (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <AdvantagePillar
                     title="Microsoft Fluency (Internal)"
-                    content="9 years exp. Architect of 'Consumption Excellence.' Deep understanding of the End-to-end Microsoft matrix and operational rhythms."
+                    content="10 years exp. Architect of 'Consumption Excellence.' Deep understanding of the End-to-end Microsoft matrix and operational rhythms."
                     icon={LayoutGrid}
                 />
                 <AdvantagePillar
                     title="The 'Customer Zero' Lens (External)"
-                    content="Former Partner & Customer. Startup coach. Ecosystem Enabler. I understand the start-to-scale journey and the friction points in evolution."
+                    content="Former Partner & Customer. Startup coach. Ecosystem Enabler. Start-to-scale journey and experience in the friction of evolution."
                     icon={Handshake}
                 />
                 <AdvantagePillar
@@ -208,7 +208,7 @@ const ValuePropSection = () => (
 
         {/* Credibility Snapshots */}
         <div className="mb-10 pt-6 border-t border-gray-200">
-            <h3 className="text-lg font-bold text-gray-800 mb-4 text-center">Credibility Snapshots</h3>
+            <h3 className="text-lg font-bold text-gray-800 mb-4 text-center">Proof Points</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <SnapshotCard
                     company="Microsoft (2013–2022)"
@@ -219,13 +219,13 @@ const ValuePropSection = () => (
                 <SnapshotCard
                     company="Delphix (2022–2023)"
                     role="Strategic Alliance & Customer Success"
-                    win="Managed strategic FSI customers & Microsoft Data Partnership. Co-sell execution with Azure (ADF/Synapse). Customer obsession and alignment to strategy."
+                    win="Managed strategic FSI customers & Microsoft Data Partnership. Co-sell execution with Azure (ADF/Synapse). Shortened feedback loops between Microsoft customer experiences to Delphix product team, translating field realities into actionable and agile product roadmapping."
                     icon={TrendingUp}
                 />
                 <SnapshotCard
                     company="Viral Nation (2023–2024)"
                     role="Chief of Staff / Ops Director"
-                    win="Managed $2M in transformational project, revamped DevOps, ITOps, SalesOps, Managed Service Delivery, SDLC Lifecycle, C-Level ROB. Integrated enterprise grade resource management tooling and ROB."
+                    win="Managed $2M in transformational project, revamped DevOps, ITOps, SalesOps, Managed Service Delivery, SDLC Lifecycle, C-Level ROB. Developed contract & resource management processes supporting 1000s of influencer partnerships and payouts."
                     icon={HardHat}
                 />
             </div>
@@ -570,7 +570,7 @@ const App = () => {
                         Culture & Values Alignment
                     </h3>
                     <p className="text-gray-600 max-w-4xl mx-auto italic">
-                        All actions will embody Microsoft’s values of respect, integrity, and accountability, focusing on a growth mindset and driving inclusion within the high-performing SME&C organization.
+                        Serving as the connective tissue, I will align the team to Microsoft’s values (respect, integrity, accountability) while cultivating leadership ability to understand and embody these values, to diagnose cultural gaps and support a clear direction for the SME&C STU. This ensures operational decisions continually reinforce a growth mindset and deepen inclusion across the SME&C organization.
                     </p>
                     <div className="mt-4 text-sm text-gray-500 flex items-center justify-center space-x-2">
                         <span>Built with</span>
